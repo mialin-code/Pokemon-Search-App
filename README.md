@@ -1,0 +1,7 @@
+Pokemon Search
+
+
+
+The Pokémon Search App is a retro-inspired web application that allows users to look up detailed information about any Pokémon using its name or Pokédex ID. 
+Has a nostalgic Game Boy aesthetic and it displays stats, types, height, weight, and an official sprite image. 
+Built with HTML, CSS, and vanilla JavaScript, the app fetches real time data from the PokéAPI and offers a fun way to explore Pokémon while practicing API integration and DOM manipulation.
