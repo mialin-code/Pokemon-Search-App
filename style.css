@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+:root {
+  --screen-green: #c4f0c2;
+  --border-dark: #4b6043;
+  --button-green: #8bbf84;
+  --text-dark: #1b2d19;
+  --bg-dark: #1f1f1f;
+  --highlight: #99ff99;
+}
+
+body {
+  background-color: var(--bg-dark);
+  color: var(--text-dark);
+  font-family: 'Press Start 2P', cursive;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+main {
+  background-color: var(--screen-green);
+  border: 8px solid var(--border-dark);
+  box-shadow: 0 0 0 12px #3a4b34;
+  padding: 20px;
+  width: 90vw;
+  max-width: 500px;
+  text-align: center;
+  border-radius: 10px;
+}
+
+h1 {
+  font-size: 12px;
+  margin-bottom: 20px;
+  color: var(--text-dark);
+  text-shadow: 1px 1px var(--border-dark);
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+label {
+  font-size: 8px;
+  display: block;
+  margin-bottom: 8px;
+}
+
+input {
+  background-color: var(--button-green);
+  border: 3px solid var(--border-dark);
+  font-family: 'Press Start 2P', cursive;
+  font-size: 10px;
+  padding: 6px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+button {
+  background-color: var(--highlight);
+  border: 3px solid var(--border-dark);
+  font-family: 'Press Start 2P', cursive;
+  font-size: 10px;
+  padding: 6px 12px;
+  margin-top: 10px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: var(--button-green);
+}
+
+.output {
+  font-size: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.name-and-id,
+.size,
+#types {
+  display: flex;
+  justify-content: space-around;
+}
+
+.type {
+  background-color: var(--button-green);
+  padding: 4px 6px;
+  margin: 2px;
+  border: 2px solid var(--border-dark);
+  font-size: 8px;
+}
+
+.sprite-container img {
+  image-rendering: pixelated;
+  width: 120px;
+  height: 120px;
+  margin: 10px auto;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 8px;
+}
+
+td, th {
+  border: 1px solid var(--border-dark);
+  padding: 4px;
+}
+
+.bottom-container {
+  background-color: #e4ffe1;
+  padding: 10px;
+  border: 4px double var(--border-dark);
+}
